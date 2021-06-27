@@ -1,0 +1,38 @@
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 40px;
+}
+
+.week-day {
+    font-size: 0.8em;
+}
+
+.day {
+    font-size: 0.8em;
+}
+
+.day {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.current-day {
+    background-color: #26b619;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+}
+.selected-day {
+    background-color:yellow;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
